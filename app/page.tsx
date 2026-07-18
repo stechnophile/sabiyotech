@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
+import Hero from "@/components/Hero";
+import Topics from "@/components/Topics";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
+      <Topics />
     </>
   );
 }
