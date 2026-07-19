@@ -1,4 +1,6 @@
+import {useTranslations} from 'next-intl';
 export default function Hero() {
+  const t = useTranslations('Hero');
   return (
     <section 
         id="home"
@@ -8,22 +10,25 @@ export default function Hero() {
         <div className="max-w-3xl">
 
           <p className="mb-4 text-blue-400 font-semibold tracking-widest uppercase">
-            Election Technology • AI • Cybersecurity
+            {/*Election Technology • AI • Cybersecurity*/}
+            {t('subtitle')}
           </p>
 
           <h1 className="text-6xl font-extrabold leading-tight">
-            Building the Future of
+            {t('title')}
+            {/*Building the Future of
             <br />
             Secure, Transparent &
             <br />
-            Inclusive Elections
+            Inclusive Elections*/}
           </h1>
 
           <p className="mt-8 text-xl text-slate-300 leading-8">
-            Welcome to my Election Technology Knowledge Hub.
+            {/*Welcome to my Election Technology Knowledge Hub.
             I share research, case studies, and insights on election
             technology, cybersecurity, artificial intelligence,
-            and digital democracy.
+            and digital democracy.*/}
+            {t("description")}
           </p>
 
           <div className="mt-10 flex gap-5">

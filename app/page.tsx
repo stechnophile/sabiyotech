@@ -1,13 +1,5 @@
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Topics from "@/components/Topics";
+import {redirect} from 'next/navigation';
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <About />
-      <Topics />
-    </>
-  );
+  redirect('/en');
 }

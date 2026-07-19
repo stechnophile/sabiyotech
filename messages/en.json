@@ -8,11 +8,47 @@
     "media": "Media",
     "contact": "Contact"
   },
+
   "Hero": {
-    "title": "Building the Future of Secure, Transparent & Inclusive Elections",
-    "subtitle": "Election Technology • AI • Cybersecurity",
-    "description": "Welcome to my Election Technology Knowledge Hub. I share research, case studies, and insights on election technology, cybersecurity, artificial intelligence, and digital democracy.",
+    "subtitle": "Election Technology • Artificial Intelligence • Cybersecurity",
+    "title": "Building the Future of\nSecure, Transparent &\nInclusive Elections",
+    "description": "Welcome to my personal website. I share research, practical insights, case studies, and knowledge on election technology, cybersecurity, artificial intelligence, and digital democracy.",
     "explore": "Explore Articles",
     "about": "About Me"
+  },
+
+  "About": {
+    "title": "About Me",
+    "subtitle": "An Information Technology professional and researcher specializing in Election Technology, Digital Democracy, Artificial Intelligence, and Cybersecurity.",
+    "description": "I am passionate about modernizing election systems through secure digital technologies, AI-driven solutions, cybersecurity, and data-driven decision making. My mission is to contribute to transparent, trustworthy, and resilient election systems that strengthen democratic institutions.",
+    "experience": "10+ Years of Experience",
+    "projects": "IT Projects",
+    "research": "Research Interests",
+    "downloadCV": "Download CV"
+  },
+
+  "Topics": {
+    "heading": "Explore Election Technology",
+    "subtitle": "A growing collection of articles, research, case studies, and practical resources on election technology and digital democracy.",
+
+    "emsTitle": "Election Management Systems",
+    "emsDescription": "Explore voter registration, candidate management, polling operations, and election administration systems.",
+
+    "cyberTitle": "Election Cybersecurity",
+    "cyberDescription": "Protect election infrastructure against cyber threats and improve operational resilience.",
+
+    "aiTitle": "Artificial Intelligence",
+    "aiDescription": "Discover how AI supports election planning, logistics, forecasting, and decision making.",
+
+    "digitalTitle": "Digital Democracy",
+    "digitalDescription": "Technology that enhances transparency, citizen participation, and public trust in democratic processes.",
+
+    "gisTitle": "GIS & Boundary Delimitation",
+    "gisDescription": "Use geospatial technologies for constituency mapping and polling station planning.",
+
+    "analyticsTitle": "Election Data Analytics",
+    "analyticsDescription": "Analyze election data through dashboards, visualization, reporting, and evidence-based insights.",
+
+    "learnMore": "Learn More"
   }
 }
