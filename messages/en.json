@@ -1,0 +1,18 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "electionTechnology": "Election Technology",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "media": "Media",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Building the Future of Secure, Transparent & Inclusive Elections",
+    "subtitle": "Election Technology • AI • Cybersecurity",
+    "description": "Welcome to my Election Technology Knowledge Hub. I share research, case studies, and insights on election technology, cybersecurity, artificial intelligence, and digital democracy.",
+    "explore": "Explore Articles",
+    "about": "About Me"
+  }
+}
