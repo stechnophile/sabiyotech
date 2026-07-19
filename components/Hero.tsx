@@ -28,13 +28,13 @@ export default function Hero() {
 
           <div className="mt-10 flex gap-5">
 
-            <button className="rounded-lg bg-blue-600 px-7 py-4 font-semibold hover:bg-blue-700 transition">
+            {/*<button className="rounded-lg bg-blue-600 px-7 py-4 font-semibold hover:bg-blue-700 transition">
               Explore Articles
             </button>
 
             <button className="rounded-lg border border-white px-7 py-4 hover:bg-white hover:text-black transition">
               About Me
-            </button>
+            </button>*/}
 
           </div>
 
