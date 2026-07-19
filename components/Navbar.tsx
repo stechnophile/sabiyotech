@@ -6,13 +6,13 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navLinks = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Election Technology", href: "/election-technology" },
-  { name: "Case Studies", href: "/case-studies" },
-  { name: "Blog", href: "/blog" },
-  { name: "Media", href: "/media" },
-  { name: "Contact", href: "/contact" },
+  { name: "Home", href: "/#home" },
+  { name: "About", href: "/#about" },
+  { name: "Election Technology", href: "/#election-technology" },
+  { name: "Case Studies", href: "/#case-studies" },
+  { name: "Blog", href: "/#blog" },
+  { name: "Media", href: "/#media" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {

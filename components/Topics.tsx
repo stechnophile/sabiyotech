@@ -41,7 +41,10 @@ const topics = [
 
 export default function Topics() {
   return (
-    <section className="bg-white py-24">
+  <section
+    id="election-technology"
+    className="bg-white py-24"
+  >
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="text-center">
@@ -90,5 +93,6 @@ export default function Topics() {
         </div>
       </div>
     </section>
-  );
+  
+);
 }

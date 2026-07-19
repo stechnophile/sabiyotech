@@ -1,6 +1,8 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900 text-white">
+    <section 
+        id="home"
+        className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900 text-white">
       <div className="mx-auto flex min-h-screen max-w-7xl items-center px-6">
 
         <div className="max-w-3xl">
