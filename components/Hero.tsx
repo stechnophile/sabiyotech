@@ -1,16 +1,32 @@
+import Image from "next/image";
 import {useTranslations} from 'next-intl';
 export default function Hero() {
   const t = useTranslations('Hero');
   return (
     <section 
         id="home"
-        className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900 text-white">
-      <div className="mx-auto flex min-h-screen max-w-7xl items-center px-6">
+        className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900 text-white"
+      >
+        {/* Digital Network Background */}
+        <div className="absolute inset-0 bg-center bg-cover opacity-15"
+          style={{
+            backgroundImage: "url('/images/Digital_network.jpeg')",
+          }}
+        >
 
+        </div>
+             
+        
+        {/* Hero Content */}
+
+     <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
+
+    {/* Left Side */}
         <div className="max-w-3xl">
+          
 
-          <p className="mb-4 text-blue-400 font-semibold tracking-widest uppercase">
-            {/*Election Technology • AI • Cybersecurity*/}
+          <p className="mb-4 font-semibold uppercase tracking-widest text-blue-400">
+            {/*Election Technology                    • AI                    • Cybersecurity*/}
             {t('subtitle')}
           </p>
 
@@ -31,21 +47,29 @@ export default function Hero() {
             {t("description")}
           </p>
 
-          <div className="mt-10 flex gap-5">
-
-            {/*<button className="rounded-lg bg-blue-600 px-7 py-4 font-semibold hover:bg-blue-700 transition">
-              Explore Articles
-            </button>
-
-            <button className="rounded-lg border border-white px-7 py-4 hover:bg-white hover:text-black transition">
-              About Me
-            </button>*/}
-
           </div>
+          {/* Right Side
+          <div className="flex justify-center">
+
+            <div className="relative">
+
+            
+                <div className="absolute h-[500px] w-[500px] rounded-full bg-blue-500/20 blur-3xl">
+                </div>
+              <Image
+                src="/images/website_hero2.png"
+                alt="Yogesh Aryal"
+                width={800}
+                height={550}
+                priority
+                className="object-contain drop-shadow-2xl"
+              /> 
+
+            </div>
+
+          </div>*/}
 
         </div>
-
-      </div>
     </section>
   );
 }

@@ -10,11 +10,9 @@
   },
 
   "Hero": {
-    "subtitle": "Election Technology • Artificial Intelligence • Cybersecurity",
+    "subtitle": "Election Technology             • Artificial Intelligence              • Cybersecurity",
     "title": "Building the Future of\nSecure, Transparent &\nInclusive Elections",
-    "description": "Welcome to my personal website. I share research, practical insights, case studies, and knowledge on election technology, cybersecurity, artificial intelligence, and digital democracy.",
-    "explore": "Explore Articles",
-    "about": "About Me"
+    "description": "Welcome to my personal website. I share research, practical insights, case studies, and knowledge on election technology, cybersecurity, artificial intelligence, and digital democracy."
   },
 
   "About": {
