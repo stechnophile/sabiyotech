@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -12,11 +13,13 @@ export default function About() {
 
           {/* Left Side - Photo */}
           <div className="flex justify-center">
-            <div className="h-96 w-80 rounded-3xl bg-slate-200 shadow-xl flex items-center justify-center">
-              <span className="text-slate-500">
-                Your Professional Photo
-              </span>
-            </div>
+            <Image
+              src="/images/yogesh.png"
+              alt="Yogesh Aryal"
+              width={380}
+              height={450}
+              className="rounded-3xl shadow-2xl object-cover"
+            />
           </div>
 
           {/* Right Side */}
@@ -54,20 +57,20 @@ export default function About() {
 
             <div className="mt-10 flex flex-wrap gap-4">
 
-              <Link
-                href="/contact"
-                className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700 transition"
+              <a
+                href="mailto:yogesharyal2048@gmail.com"
+                className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
               >
-                Contact Me
-              </Link>
+                📧 Contact Me
+              </a>
 
-              <Link
-                href="#"
-                className="rounded-lg border border-slate-300 px-6 py-3 font-semibold hover:bg-slate-100 transition"
+              <a
+                href="/resume/Yogesh_Aryal_CV.pdf"
+                download
+                className="rounded-lg border border-slate-300 px-6 py-3 font-semibold transition hover:bg-slate-100"
               >
-                Download CV
-              </Link>
-
+                📄 Download CV
+              </a>
             </div>
 
           </div>
