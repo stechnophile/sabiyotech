@@ -3,6 +3,7 @@ import {getMessages} from "next-intl/server";
 import {notFound} from "next/navigation";
 import {routing} from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
+import AIAssistant from "@/components/AIAssistant";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <Navbar />
+      <AIAssistant />
       {children}
     </NextIntlClientProvider>
   );
