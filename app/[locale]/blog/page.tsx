@@ -3,7 +3,7 @@ export default function BlogPage() {
     <main className="mx-auto max-w-4xl px-6 py-20">
       <div className="mb-16">
       <h1 className="text-5xl font-bold text-slate-900">
-        Blog
+        Blog & Research Articles
       </h1>
 
       <p className="mt-4 text-lg text-slate-600">
@@ -33,8 +33,6 @@ export default function BlogPage() {
           </div>
           <div className="mt-10 space-y-6 text-lg leading-8 text-slate-700">
 
-          <h3></h3>
-
           <p>
           As Nepal continues its journey toward digital transformation, an important question is emerging: can technology make elections more accessible, efficient, and inclusive? While digital elections are often viewed as a natural step in modern governance, their implementation requires careful planning, strong institutions, and public trust.
           </p>
@@ -47,7 +45,7 @@ export default function BlogPage() {
           Today, however, Nepal faces new challenges that are prompting renewed discussions about digital elections. Large-scale labor migration, urbanization, and internal migration have weakened the connection between many citizens and their registered voting constituencies. Millions of Nepalis living abroad remain unable to participate in elections, raising concerns about democratic inclusion and representation. At the same time, increasing internet access, mobile connectivity, and digital literacy are transforming how citizens interact with public services.
           </p>
 
-          <h3>A New Generation of Digital Citizens</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">A New Generation of Digital Citizens</h3>
 
           <p>
            Nepal’s electorate is becoming younger and more digitally connected. Many first-time voters regularly use online banking, e-commerce platforms, digital payment systems, and government services. For these citizens, long journeys to polling stations and manual election processes may appear outdated. 
@@ -56,7 +54,7 @@ export default function BlogPage() {
           However, digital expectations must be balanced with realities on the ground. While urban youth often possess strong digital skills, many rural communities and migrant workers still face challenges related to internet access and digital literacy. Therefore, the goal should not be immediate internet voting but rather the gradual introduction of technology that improves accessibility and administrative efficiency without excluding vulnerable populations.
           </p>
 
-          <h3>Nepal’s Digital Readiness</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">Nepal’s Digital Readiness</h3>
 
           <p>
             Nepal’s digital landscape has improved significantly in recent years. Mobile penetration exceeds the country’s population, internet use continues to grow, and broadband services have expanded across much of the nation. These developments provide a promising foundation for future digital election initiatives. The Election Commission of Nepal (ECN) has also made considerable progress in digitizing election administration. Integration with the National Identity database, digital candidate nomination platforms, and electronic result publication systems have improved efficiency and transparency. These achievements demonstrate that Nepal can successfully manage large-scale digital election infrastructure.
@@ -65,7 +63,7 @@ export default function BlogPage() {
           Nevertheless, readiness for digital administration does not automatically mean readiness for digital voting. Significant challenges remain, particularly in rural connectivity, power reliability, cybersecurity, and legal preparedness.
           </p>
 
-          <h3>The Cybersecurity Challenge</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">The Cybersecurity Challenge</h3>
 
           <p>
             Any discussion of digital elections must address cybersecurity. Election systems are attractive targets for cybercriminals, hostile actors, and disinformation campaigns. Risks include unauthorized access to voter databases, denial-of-service attacks, phishing campaigns, misinformation, and manipulation attempts.
@@ -80,13 +78,13 @@ export default function BlogPage() {
           </p>
 
 
-          <h3>Legal and Institutional Preparedness</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">Legal and Institutional Preparedness</h3>
 
           <p>
           Nepal has taken positive steps through the National Cyber Security Policy and existing election legislation, which provide a foundation for digital innovation. However, significant regulatory gaps remain. Detailed standards for technology certification, independent security audits, cybersecurity compliance, and accountability mechanisms are still underdeveloped. Without these safeguards, introducing electronic or online voting could create risks that outweigh the benefits. Strong legal frameworks must come before technological expansion.
           </p>
 
-          <h3>Learning from Global Experience</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">Learning from Global Experience</h3>
 
           <p>
           International examples offer valuable lessons. Estonia is often cited as the global leader in internet voting, but its success is built on decades of investment in digital identity systems, cybersecurity infrastructure, and public trust. Other countries have taken a more cautious approach. Germany discontinued electronic voting due to transparency concerns, while countries such as the Netherlands and Ireland abandoned similar initiatives because of security and cost issues. These experiences show that technology alone cannot guarantee successful digital elections. Trust, transparency, and strong institutions are equally important.
@@ -94,7 +92,7 @@ export default function BlogPage() {
           </p>
 
 
-          <h3>What Should Nepal Do Next?</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">What Should Nepal Do Next?</h3>
 
           <p>
           Rather than pursuing rapid implementation of electronic or internet voting, Nepal should adopt a phased and evidence-based approach.
@@ -112,7 +110,7 @@ export default function BlogPage() {
           Only in the long term, after demonstrating sufficient institutional maturity, legal readiness, cybersecurity capability, and public confidence, should Nepal consider expanding voter-facing digital voting options. Even then, digital voting should initially operate alongside traditional paper ballots until reliability and trust are fully established.
           </p>
 
-          <h3>Conclusion</h3>
+          <h3 className="text-3xl font-semibold text-slate-800">Conclusion</h3>
 
           <p>
             Digital elections are not a quick fix for Nepal’s electoral challenges. They represent a long-term institutional transformation that requires careful planning, robust legal safeguards, advanced cybersecurity capabilities, and broad stakeholder trust. While technology can improve efficiency and accessibility, it cannot replace transparency, accountability, and public confidence. For now, Nepal’s most practical path is to strengthen the digital foundations of election administration while maintaining the trusted paper ballot system. Through gradual reforms, pilot programs, and inclusive stakeholder engagement, the country can modernize its electoral processes without compromising democratic integrity. Ultimately, the success of digital elections in Nepal will depend not on technology itself, but on the institutions, governance, and trust that support it.
