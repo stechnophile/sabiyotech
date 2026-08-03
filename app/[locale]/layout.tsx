@@ -33,7 +33,6 @@ export default async function LocaleLayout({
       <Navbar />
       <AIAssistant />
       {children}
-      <Feedback />
     </NextIntlClientProvider>
   );
 }

@@ -19,7 +19,7 @@ export default function Navbar() {
     {name: t("caseStudies"), href: `/${locale}#case-studies`},
     {name: t("blog"), href: `/${locale}/blog`},
     {name: t("media"), href: `/${locale}#media`},
-    {name: t("contact"), href: `/${locale}#contact`}
+    {name: t("contact"), href: `/${locale}/contact`}
   ];
 
   const switchLocale = locale === "en" ? "ne" : "en";
