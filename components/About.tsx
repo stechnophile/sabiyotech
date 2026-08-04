@@ -74,10 +74,36 @@ export default function About() {
             </div>
 
           </div>
-
+          
         </div>
 
       </div>
+
+                {/* Education & Career Timeline */}
+
+          <div className="mt-24">
+
+            <h3 className="text-center text-4xl font-bold text-slate-900">
+              Education & Career Journey
+            </h3>
+
+            <p className="mt-4 text-center text-lg text-slate-600">
+              A visual overview of my academic background,
+              professional experience, and research journey.
+            </p>
+
+            <div className="mt-12 rounded-3xl bg-white p-6 shadow-xl">
+              <Image
+                src="/images/timeline.png"
+                alt="Education and Career Timeline"
+                width={1400}
+                height={800}
+                className="h-auto w-full rounded-2xl"
+              />
+            </div>
+
+          </div>
+
     </section>
   );
 }
