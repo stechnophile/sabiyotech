@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import {usePathname} from "next/navigation";
 import {Menu, X} from "lucide-react";
 import {useState} from "react";
@@ -29,13 +30,22 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         {/* Logo */}
-        <Link
-          href={`/${locale}`}
-          className="text-2xl font-bold text-slate-900"
-        >
-          Yogesh Aryal
-        </Link>
+            <Link
+              href={`/${locale}`}
+              className="flex items-center gap-3"
+            >
+              <Image
+                src="/profile.jpg"
+                alt="Yogesh Aryal"
+                width={40}
+                height={40}
+                className="rounded-full border border-gray-200 object-cover"
+              />
 
+              <span className="text-2xl font-bold text-slate-900">
+                Yogesh Aryal
+              </span>
+            </Link>
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
