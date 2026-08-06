@@ -1,75 +1,132 @@
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+
 export default function Hero() {
-  const t = useTranslations('Hero');
   return (
-    <section 
-        id="home"
-        className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900 text-white"
-      >
-        {/* Digital Network Background */}
-        <div className="absolute inset-0 bg-center bg-cover opacity-15"
-          style={{
-            backgroundImage: "url('/images/Digital_network.jpeg')",
-          }}
-        >
+    <section className="relative min-h-screen bg-neutral-50 overflow-hidden">
 
-        </div>
-             
-        
-        {/* Hero Content */}
+      {/* Top Navigation Area 
+      <div className="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
 
-     <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
+        <div className="flex items-center gap-3">
+          <Image
+            src="/profile.jpg"
+            alt="Yogesh Aryal"
+            width={50}
+            height={50}
+            className="rounded-full border"
+          />
 
-    {/* Left Side */}
-        <div className="max-w-3xl">
-          
-
-          <p className="mb-4 font-semibold uppercase tracking-widest text-blue-400">
-            {/*Election Technology                    • AI                    • Cybersecurity*/}
-            {t('subtitle')}
-          </p>
-
-          <h1 className="text-6xl font-extrabold leading-tight">
-            {t('title')}
-            {/*Building the Future of
-            <br />
-            Secure, Transparent &
-            <br />
-            Inclusive Elections*/}
-          </h1>
-
-          <p className="mt-8 text-xl text-slate-300 leading-8">
-            {/*Welcome to my Election Technology Knowledge Hub.
-            I share research, case studies, and insights on election
-            technology, cybersecurity, artificial intelligence,
-            and digital democracy.*/}
-            {t("description")}
-          </p>
-
+          <div>
+            <h2 className="font-bold text-xl">
+              Yogesh Aryal
+            </h2>
           </div>
-          {/* Right Side
-          <div className="flex justify-center">
-
-            <div className="relative">
-
-            
-                <div className="absolute h-[500px] w-[500px] rounded-full bg-blue-500/20 blur-3xl">
-                </div>
-              <Image
-                src="/images/website_hero2.png"
-                alt="Yogesh Aryal"
-                width={800}
-                height={550}
-                priority
-                className="object-contain drop-shadow-2xl"
-              /> 
-
-            </div>
-
-          </div>*/}
-
         </div>
+
+        <div className="flex gap-6 text-sm underline">
+          <a href="/resume">Resume</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </div>
+      */}
+      {/* Hero Content */}
+      <div className="max-w-5xl mx-auto px-6 text-center mt-16">
+
+        <p className="text-gray-600 text-lg mb-6">
+          IT Director, Election Commission Nepal 🇳🇵
+        </p>
+
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">
+          Exploring the Future of
+          <br />
+          Election Technology,
+          <br />
+          <span className="text-gray-400">
+            Cybersecurity &
+          </span>
+          <br />
+          <span className="text-gray-400">
+            Artificial Intelligence
+          </span>
+        </h1>
+
+        <p className="mt-10 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Exploring the intersection of election technology,
+          cybersecurity, and artificial intelligence.
+          Discover case studies, research, projects,
+          and technical insights on safeguarding
+          modern democratic processes and driving
+          digital transformation.
+        </p>
+
+        <div className="mt-8 flex justify-center gap-5 text-lg underline flex-wrap">
+          <a href="https://linkedin.com/in/yaryal/">
+            LinkedIn
+          </a>
+
+          <span>✦</span>
+
+          <a href="https://github.com/stechnophile/myprofilewebsite">
+            GitHub
+          </a>
+
+          <span>✦</span>
+
+          <a href="/blog">
+            Blog
+          </a>
+
+          <span>✦</span>
+
+          <a href="/contact">
+            Contact
+          </a>
+
+          <span>✦</span>
+
+          <a href="/about">
+            CV
+          </a>
+        </div>
+      </div>
+
+      {/* Sticky Notes */}
+
+      <StickyNote
+        text="Election Technology"
+        className="top-32 left-20 bg-blue-100 rotate-[-8deg]"
+      />
+
+      <StickyNote
+        text="Artificial Intelligence"
+        className="top-32 right-20 bg-purple-100 rotate-[6deg]"
+      />
+
+      <StickyNote
+        text="Cybersecurity"
+        className="bottom-32 left-20 bg-green-100 rotate-[5deg]"
+      />
+
+      <StickyNote
+        text="Research & Innovation"
+        className="bottom-32 right-20 bg-orange-100 rotate-[-6deg]"
+      />
     </section>
+  );
+}
+
+function StickyNote({
+  text,
+  className,
+}: {
+  text: string;
+  className: string;
+}) {
+  return (
+    <div
+      className={`absolute hidden lg:flex w-48 h-48 shadow-lg items-center justify-center text-center font-medium text-xl p-4 ${className}`}
+    >
+      {text}
+    </div>
   );
 }
