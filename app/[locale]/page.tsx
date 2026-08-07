@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Topics from "@/components/Topics";
 import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
+import Media from "@/components/MediaGallery";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Home() {
       <Topics />
       <Blog />
       <About />
+      <Media /> 
       <Contact />
     </>
   );
