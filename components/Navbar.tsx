@@ -58,13 +58,13 @@ export default function Navbar() {
             </Link>
           ))}
 
-          {/* Language Switcher */}
+          {/* Language Switcher
           <Link
             href={`/${switchLocale}`}
             className="rounded-md border px-3 py-1 text-sm font-medium hover:bg-gray-100"
           >
             {locale === "en" ? "🇳🇵 नेपाली" : "🇬🇧 English"}
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -92,12 +92,12 @@ export default function Navbar() {
             </Link>
           ))}
 
-          <Link
+          {/*<Link
             href={`/${switchLocale}`}
             className="block px-6 py-4 font-semibold text-blue-700"
           >
             {locale === "en" ? "🇳🇵 नेपाली" : "🇬🇧 English"}
-          </Link>
+          </Link>*/}
 
         </nav>
       )}
