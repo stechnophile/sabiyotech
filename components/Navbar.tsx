@@ -15,11 +15,11 @@ export default function Navbar() {
 
   const navLinks = [
     {name: t("home"), href: `/${locale}#home`},
-    {name: t("electionTechnology"), href: `/${locale}#election-technology`},
     /*{name: t("caseStudies"), href: `/${locale}#case-studies`},*/
     {name: t("blog"), href: `/${locale}/blog`},
-    {name: t("media"), href: `/${locale}/media`},
     {name: t("about"), href: `/${locale}/about`},
+    {name: t("media"), href: `/${locale}/media`},
+    {name: t("electionTechnology"), href: `/${locale}#election-technology`},
     {name: t("contact"), href: `/${locale}/contact`}
   ];
 
