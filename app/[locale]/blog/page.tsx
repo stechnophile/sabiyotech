@@ -11,9 +11,15 @@ export default function BlogPage() {
     {
       slug: "building-cyberguard-ai",
       title: "CyberGuard AI: Building an AI-Powered Security Analyst from Scratch",
-      category: "Cybersecurity",
+      category: "Cybersecurity & Artificial Intelligence",
       readTime: "8 min read",
     },
+    {
+      slug: "webdevelopment",
+      title: "Building and Launching a Professional Personal Website: A Practical Journey with sabiyotech.com",
+      category: "Research & Innovation",
+      readTime: "8 min read",
+    }
   ];
 
   return (

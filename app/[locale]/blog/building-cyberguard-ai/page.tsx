@@ -6,7 +6,7 @@ export default function buildingcyberguardaiBlogPage() {
         <article className="mt-16">
         <div className="mb-10 border-b pb-8">
             <span className="rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-700">
-              Cybersecurity
+              Cybersecurity & Artificial Intelligence
             </span>
 
             <h2 className="mt-4 text-4xl font-bold text-slate-900">

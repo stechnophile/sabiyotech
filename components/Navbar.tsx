@@ -35,7 +35,7 @@ export default function Navbar() {
               className="flex items-center gap-3"
             >
               <Image
-                src="/profile.jpg"
+                src="/images/yogesh.png"
                 alt="Yogesh Aryal"
                 width={40}
                 height={40}
