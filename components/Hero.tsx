@@ -90,28 +90,48 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Sticky Notes */}
+      {/* Mobile Sticky Notes */}
+        <div className="mt-12 flex flex-wrap justify-center gap-3 px-6 lg:hidden">
+          <div className="rounded-xl bg-blue-100 px-4 py-2 shadow">
+            Election Technology
+          </div>
 
-      <StickyNote
-        text="Election Technology"
-        className="top-32 left-20 bg-blue-100 rotate-[-8deg]"
-      />
+          <div className="rounded-xl bg-purple-100 px-4 py-2 shadow">
+            Artificial Intelligence
+          </div>
 
-      <StickyNote
-        text="Artificial Intelligence"
-        className="top-32 right-20 bg-purple-100 rotate-[6deg]"
-      />
+          <div className="rounded-xl bg-green-100 px-4 py-2 shadow">
+            Cybersecurity
+          </div>
 
-      <StickyNote
-        text="Cybersecurity"
-        className="bottom-32 left-20 bg-green-100 rotate-[5deg]"
-      />
+          <div className="rounded-xl bg-orange-100 px-4 py-2 shadow">
+            Research & Innovation
+          </div>
+        </div>
 
-      <StickyNote
-        text="Research & Innovation"
-        className="bottom-32 right-20 bg-orange-100 rotate-[-6deg]"
-      />
-    </section>
+        {/* Desktop Sticky Notes */}
+        <div className="hidden lg:block">
+          <StickyNote
+            text="Election Technology"
+            className="top-32 left-20 bg-blue-100 rotate-[-8deg]"
+          />
+
+          <StickyNote
+            text="Artificial Intelligence"
+            className="top-32 right-20 bg-purple-100 rotate-[6deg]"
+          />
+
+          <StickyNote
+            text="Cybersecurity"
+            className="bottom-32 left-20 bg-green-100 rotate-[5deg]"
+          />
+
+          <StickyNote
+            text="Research & Innovation"
+            className="bottom-32 right-20 bg-orange-100 rotate-[-6deg]"
+          />
+        </div>
+            </section>
   );
 }
 
@@ -124,7 +144,7 @@ function StickyNote({
 }) {
   return (
     <div
-      className={`absolute hidden lg:flex w-48 h-48 shadow-lg items-center justify-center text-center font-medium text-xl p-4 ${className}`}
+      className={`absolute flex w-48 h-48 shadow-lg items-center justify-center text-center font-medium text-xl p-4 rounded-lg ${className}`}
     >
       {text}
     </div>
