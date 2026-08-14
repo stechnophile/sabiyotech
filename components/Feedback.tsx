@@ -7,7 +7,9 @@ export default function Feedback() {
         </h2>
 
         <p className="mt-4 text-center text-slate-600">
-          Your suggestions help improve this platform.
+          Your suggestions help improve this platform and research initiatives. 
+          <br /> 
+          <br /><strong>Please provide your feedback below.</strong>
         </p>
 
         <form className="mt-10 space-y-4">

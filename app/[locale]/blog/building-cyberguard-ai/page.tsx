@@ -14,7 +14,7 @@ export default function buildingcyberguardaiBlogPage() {
             </h2>
 
             <p className="mt-3 text-slate-500">
-              By Yogesh Aryal • Election Technology Researcher
+              By Yogesh Aryal 
             </p>
 
             <p className="mt-2 text-slate-400">
@@ -147,7 +147,7 @@ export default function buildingcyberguardaiBlogPage() {
           <br /> <strong>Severity</strong>
           <br /> An assessment of the risk level.
           <br /> <strong>MITRE ATT&CK Mapping</strong>
-          <br />I ndustry-standard classification of the attack technique.
+          <br />Industry-standard classification of the attack technique.
           <br /> <strong>Recommended Actions</strong>
           <br /> Practical steps security teams should take immediately.
           <br /> This transforms technical data into actionable guidance.

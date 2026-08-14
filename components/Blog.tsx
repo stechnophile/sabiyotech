@@ -16,9 +16,9 @@ export default function BlogPage() {
     },
     {
       slug: "webdevelopment",
-      title: "Building and Launching a Professional Personal Website: A Practical Journey with sabiyotech.com",
+      title: "Building & Launching a Professional Personal Website: A Practical Journey with sabiyotech.com",
       category: "Research & Innovation",
-      readTime: "8 min read",
+      readTime: "10 min read",
     }
   ];
 
@@ -30,8 +30,7 @@ export default function BlogPage() {
       </h1>
 
       <p className="mt-4 text-lg text-slate-600">
-        Articles and research on election technology,
-        cybersecurity, artificial intelligence, and digital democracy.
+        Articles and blog posts on election technology, cybersecurity, artificial intelligence, and digital transformation.
       </p>
     </div>
     

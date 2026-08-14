@@ -34,24 +34,19 @@ export default function About() {
             </h2>
 
             <p className="mt-3 text-xl text-blue-700 font-medium">
-              IT Director • Election Technology Researcher • AI & Cybersecurity Enthusiast
+              Senior ICT Director Specialist & IT Director | Election Technology, Cybersecurity & AI Governance
             </p>
 
             <p className="mt-8 text-lg leading-8 text-slate-600">
-              I am an ICT professional with over 10 years of experience in
-              government digital transformation, IT infrastructure, and
-              cybersecurity. My current research focuses on election technology,
-              artificial intelligence, cybersecurity, and digital democracy,
-              with the goal of strengthening secure, transparent, and inclusive
-              electoral systems.
+              I am an ICT professional with over 10 years of progressive leadership experience in government digital transformation, critical IT infrastructure protection, and governance. My current research focuses on election technology, artificial intelligence and cybersecurity.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
 
-              <div>✅ 10+ Years of ICT Leadership</div>
-              <div>✅ Government Digital Transformation</div>
-              <div>✅ Election Technology</div>
-              <div>✅ AI & Cybersecurity</div>
+              <div>✅ 10+ Years of ICT Leadership & Governance</div>
+              <div>✅ Election Technology & Integrity Practitioner</div>
+              <div>✅ AI & Cybersecurity Enthusiastic</div>
+              <div>✅ Partnership & Capacity Building </div>
 
             </div>
 
@@ -84,12 +79,11 @@ export default function About() {
           <div className="mt-24">
 
             <h3 className="text-center text-4xl font-bold text-slate-900">
-              Education & Career Journey
+              Academic & Professional Journey
             </h3>
 
             <p className="mt-4 text-center text-lg text-slate-600">
-              A visual overview of my academic background,
-              professional experience, and research journey.
+              A visual overview of my academic background, professional experience, and research journey.
             </p>
 
             <div className="mt-12 rounded-3xl bg-white p-6 shadow-xl">

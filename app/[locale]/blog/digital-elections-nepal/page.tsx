@@ -12,7 +12,7 @@ export default function digitalelectionnepalBlogPage() {
             </h2>
 
             <p className="mt-3 text-slate-500">
-              By Yogesh Aryal • Election Technology Researcher
+              By Yogesh Aryal 
             </p>
 
             <p className="mt-2 text-slate-400">

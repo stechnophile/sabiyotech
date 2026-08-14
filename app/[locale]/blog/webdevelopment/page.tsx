@@ -14,11 +14,11 @@ export default function webdevelopmentBlogPage() {
             </h2>
 
             <p className="mt-3 text-slate-500">
-              By Yogesh Aryal • Election Technology Researcher
+              By Yogesh Aryal 
             </p>
 
             <p className="mt-2 text-slate-400">
-              8 min read
+              10 min read
             </p>
           </div>
           <div className="mt-10 space-y-6 text-lg leading-8 text-slate-700">

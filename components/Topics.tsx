@@ -20,18 +20,6 @@ const topics = [
       "Discover how AI supports election planning, logistics, and integrity.",
   },
   {
-    title: "Digital Democracy",
-    icon: "🌍",
-    description:
-      "Technology that enhances transparency, citizen participation, and trust.",
-  },
-  {
-    title: "GIS & Boundary Delimitation",
-    icon: "🛰️",
-    description:
-      "Geospatial technologies for constituency mapping and polling station planning.",
-  },
-  {
     title: "Election Data Analytics",
     icon: "📊",
     description:
@@ -56,10 +44,6 @@ export default function Topics() {
             Explore Election Technology
           </h2>
 
-          <p className="mt-6 max-w-3xl mx-auto text-slate-600 text-lg">
-            A growing collection of articles, research, case studies,
-            and practical resources on election technology and digital democracy.
-          </p>
         </div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

@@ -32,33 +32,18 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="max-w-5xl mx-auto px-6 text-center mt-16">
 
-        <p className="text-gray-600 text-lg mb-6">
-          IT Director, Election Commission Nepal 🇳🇵
-        </p>
-
         <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">
-          Exploring the Future of
-          <br />
-          Election Technology,
-          <br />
-          <span className="text-gray-400">
-            Cybersecurity &
-          </span>
-          <br />
-          <span className="text-gray-400">
-            Artificial Intelligence
-          </span>
+          Exploring the intersection of 
+          <br /> Election Technology,
+          <br /> <span className="text-gray-400"> Cybersecurity & Artificial Intelligence </span>
         </h1>
-
+<br />
+<br />
         <p className="mt-10 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Exploring the intersection of election technology,
-          cybersecurity, and artificial intelligence.
-          Discover case studies, research, projects,
-          and technical insights on safeguarding
-          modern democratic processes and driving
-          digital transformation.
+          Discover case studies, research, projects, and technical insights on safeguarding modern democratic processes and driving digital transformation. 
         </p>
-
+<br />
+<br />
         <div className="mt-8 flex justify-center gap-5 text-lg underline flex-wrap">
           <a href="https://linkedin.com/in/yaryal/">
             LinkedIn
@@ -85,7 +70,7 @@ export default function Hero() {
           <span>✦</span>
 
           <a href="/about">
-            CV
+            Resume
           </a>
         </div>
       </div>

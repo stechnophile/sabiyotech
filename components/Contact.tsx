@@ -10,9 +10,8 @@ export default function ContactPage() {
         </h1>
 
         <p className="mt-4 text-lg text-slate-600">
-          Interested in election technology, AI, cybersecurity,
-          digital governance, or research collaboration?
-          Feel free to reach out.
+          Interested in election technology, AI, cybersecurity, digital governance, or research collaboration?
+          <br /><strong>Feel free to reach out. </strong>
         </p>
       </div>
 
@@ -50,31 +49,8 @@ export default function ContactPage() {
 
           </div>
 
-          <div className="mt-10">
-            <h3 className="text-xl font-semibold">
-              Research Interests
-            </h3>
 
-            <div className="mt-4 flex flex-wrap gap-3">
-
-              <span className="rounded-full bg-blue-100 px-4 py-2 text-blue-700">
-                Election Technology
-              </span>
-
-              <span className="rounded-full bg-blue-100 px-4 py-2 text-blue-700">
-                AI
-              </span>
-
-              <span className="rounded-full bg-blue-100 px-4 py-2 text-blue-700">
-                Cybersecurity
-              </span>
-
-              <span className="rounded-full bg-blue-100 px-4 py-2 text-blue-700">
-                Digital Governance
-              </span>
-
-            </div>
-          </div>
+        
         </div>
 
         {/* Contact Form */}
