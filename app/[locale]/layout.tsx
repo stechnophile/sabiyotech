@@ -29,10 +29,33 @@ export default async function LocaleLayout({
   console.log("Navigation.home =", messages.Navigation.home);
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Navbar />
-      <AIAssistant />
-      {children}
-    </NextIntlClientProvider>
-  );
+  <NextIntlClientProvider locale={locale} messages={messages}>
+
+    {/* Global Website Background */}
+    <div className="relative min-h-screen overflow-hidden">
+
+      {/* Background Image */}
+      <div
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: "url('/hero-bg.jpeg')",
+        }}
+      />
+
+      {/* Background Overlay */}
+      <div className="fixed inset-0 bg-white/80" />
+
+      {/* Website Content */}
+      <div className="relative z-10">
+        <Navbar />
+
+        <AIAssistant />
+
+        {children}
+      </div>
+
+    </div>
+
+  </NextIntlClientProvider>
+);
 }
