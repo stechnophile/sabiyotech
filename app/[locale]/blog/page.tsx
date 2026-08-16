@@ -24,17 +24,6 @@ export default function BlogPage() {
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-20">
-       {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/hero-bg.jpeg')",
-        }}
-      />
-
-      {/* Background Overlay */}
-      <div className="absolute inset-0 bg-white/75" />
-
       <div className="mb-16">
       <h1 className="text-5xl font-bold text-slate-900">
         Blog & Research Articles

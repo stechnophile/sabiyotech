@@ -60,7 +60,7 @@ export default function About() {
               </a>
 
               <a
-                href="/resume/Yogesh_Aryal_CV.pdf"
+                href="/images/summary.png"
                 download
                 className="rounded-lg border border-slate-300 px-6 py-3 font-semibold transition hover:bg-slate-100"
               >
@@ -88,7 +88,7 @@ export default function About() {
 
             <div className="mt-12 rounded-3xl bg-white p-6 shadow-xl">
               <Image
-                src="/images/timeline.png"
+                src="/images/summary.png"
                 alt="Education and Career Timeline"
                 width={1400}
                 height={800}

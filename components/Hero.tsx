@@ -11,18 +11,24 @@ export default function Hero() {
 
           <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">
             Exploring the intersection
+            <br />of
             <br />
-            Election Technology,
+            <span className="text-gray-400">
+              Election Technology,
+            </span>
             <br />
             <span className="text-gray-400">
               Cybersecurity & Artificial Intelligence
             </span>
+            <br />for
+            <br />
+              Ensuring Reliable, Transparent, and Secure Elections.
           </h1>
 
           <br />
           <br />
 
-          <p className="mt-10 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-2 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Discover case studies, research, projects, and technical
             insights on safeguarding modern democratic processes and
             driving digital transformation.
@@ -31,7 +37,7 @@ export default function Hero() {
           <br />
           <br />
 
-          <div className="mt-8 flex justify-center gap-5 text-lg underline flex-wrap">
+          <div className="mt-2 flex justify-center gap-5 text-lg underline flex-wrap font-bold">
 
             <a href="https://linkedin.com/in/yaryal/">
               LinkedIn
@@ -66,7 +72,7 @@ export default function Hero() {
         </div>
 
         {/* Mobile Sticky Notes */}
-        <div className="mt-12 flex flex-wrap justify-center gap-3 px-6 lg:hidden">
+        <div className="mt-12 flex flex-wrap justify-center gap-3 px-6 lg:hidden font-['Comic_Sans_MS',cursive]">
 
           <div className="rounded-xl bg-blue-100/90 px-4 py-2 shadow">
             Election Technology
@@ -91,22 +97,22 @@ export default function Hero() {
 
           <StickyNote
             text="Election Technology"
-            className="top-16 left-10 bg-blue-100/90 rotate-[-8deg]"
+            className="top-16 left-10 bg-blue-100/90 rotate-[-8deg] font-['Comic_Sans_MS',cursive]"
           />
 
           <StickyNote
             text="Artificial Intelligence"
-            className="top-16 right-10 bg-purple-100/90 rotate-[6deg]"
+            className="top-16 right-10 bg-purple-100/90 rotate-[6deg] font-['Comic_Sans_MS',cursive]"
           />
 
           <StickyNote
             text="Cybersecurity"
-            className="bottom-16 left-10 bg-green-100/90 rotate-[5deg]"
+            className="bottom-16 left-10 bg-green-100/90 rotate-[5deg] font-['Comic_Sans_MS',cursive]"
           />
 
           <StickyNote
             text="Research & Innovation"
-            className="bottom-16 right-10 bg-orange-100/90 rotate-[-6deg]"
+            className="bottom-16 right-10 bg-orange-100/90 rotate-[-6deg] font-['Comic_Sans_MS',cursive]"
           />
 
         </div>

@@ -7,11 +7,11 @@ import Media from "@/components/MediaGallery";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero />            
+      <Topics />
       <Blog />
       <About />
-      <Media />
-      <Topics /> 
+      <Media /> 
       <Contact />
     </>
   );

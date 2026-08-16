@@ -3,24 +3,28 @@ import Link from "next/link";
 const topics = [
   {
     title: "Election Management Systems",
+    slug: "election-management-systems",
     icon: "🗳️",
     description:
       "Explore voter registration, polling, candidate management, and election operations.",
   },
   {
     title: "Election Cybersecurity",
+    slug: "election-cybersecurity",
     icon: "🔐",
     description:
       "Protect election infrastructure from cyber threats and strengthen resilience.",
   },
   {
     title: "Artificial Intelligence",
+    slug: "artificial-intelligence",
     icon: "🤖",
     description:
       "Discover how AI supports election planning, logistics, and integrity.",
   },
   {
     title: "Election Data Analytics",
+    slug: "election-data-analytics",
     icon: "📊",
     description:
       "Insights from election data, dashboards, visualization, and reporting.",
@@ -66,7 +70,7 @@ export default function Topics() {
               </p>
 
               <Link
-                href="/election-technology"
+                href={`/election-technology/${topic.slug}`}
                 className="mt-8 inline-block text-blue-700 font-semibold hover:underline"
               >
                 Learn More →

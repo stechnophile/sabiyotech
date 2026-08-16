@@ -16,10 +16,10 @@ export default function Navbar() {
   const navLinks = [
     {name: t("home"), href: `/${locale}#home`},
     /*{name: t("caseStudies"), href: `/${locale}#case-studies`},*/
+    {name: t("electionTechnology"), href: `/${locale}#election-technology`},
     {name: t("blog"), href: `/${locale}/blog`},
     {name: t("about"), href: `/${locale}/about`},
     {name: t("media"), href: `/${locale}/media`},
-    {name: t("electionTechnology"), href: `/${locale}#election-technology`},
     {name: t("contact"), href: `/${locale}/contact`}
   ];
 
@@ -42,7 +42,7 @@ export default function Navbar() {
                 className="rounded-full border border-gray-200 object-cover"
               />
 
-              <span className="text-2xl font-bold text-slate-900">
+              <span className="text-2xl font-bold text-slate-900 hover:text-blue-700 transition">
                 Yogesh Aryal
               </span>
             </Link>
