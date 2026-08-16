@@ -29,6 +29,13 @@ const topics = [
     description:
       "Insights from election data, dashboards, visualization, and reporting.",
   },
+  {
+    title: "Digital Voting",
+    slug: "digital-voting",
+    icon: "🗳️",
+    description:
+      "Explore different voting technologies and their applications in modern elections.",
+  },
 ];
 
 export default function Topics() {

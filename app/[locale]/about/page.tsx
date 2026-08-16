@@ -54,7 +54,7 @@ export default function About() {
 
               <a
                 href="mailto:yogesharyal2048@gmail.com"
-                className="rounded-lg bg-yellow-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+                className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
               >
                 📧 Contact Me
               </a>

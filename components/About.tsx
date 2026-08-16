@@ -60,9 +60,9 @@ export default function About() {
               </a>
 
               <a
-                href="/images/summary.png"
+                href="/resume/YOGESH_ARYAL_CV"
                 download
-                className="rounded-lg border border-slate-300 px-6 py-3 font-semibold transition hover:bg-slate-100"
+                className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
               >
                 📄 Download CV
               </a>

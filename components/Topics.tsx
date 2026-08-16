@@ -23,11 +23,11 @@ const topics = [
       "Discover how AI supports election planning, logistics, and integrity.",
   },
   {
-    title: "Election Data Analytics",
-    slug: "election-data-analytics",
-    icon: "📊",
+    title: "Digital Voting",
+    slug: "digital-voting",
+    icon: "🗳️",
     description:
-      "Insights from election data, dashboards, visualization, and reporting.",
+      "Explore different voting technologies and their applications in modern elections.",
   },
 ];
 

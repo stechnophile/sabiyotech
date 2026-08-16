@@ -137,6 +137,47 @@ export default function ElectionManagementSystems() {
         </p>
       </section>
 
+            {/* Related Topics */}
+      <section className="mt-16 border-t pt-10">
+
+        <h2 className="text-2xl font-bold text-slate-900">
+          Related Topics
+        </h2>
+
+        <div className="mt-5 flex flex-wrap gap-4">
+
+          <Link
+            href="/en/election-technology/artificial-intelligence"
+            className="rounded-lg bg-slate-100 px-5 py-3 font-medium text-slate-700 hover:bg-slate-200"
+          >
+            Artificial Intelligence →
+          </Link>
+
+          <Link
+            href="/en/election-technology/election-cybersecurity"
+            className="rounded-lg bg-slate-100 px-5 py-3 font-medium text-slate-700 hover:bg-slate-200"
+          >
+            Election Cybersecurity →
+          </Link>
+
+          <Link
+            href="/en/election-technology/election-data-analytics"
+            className="rounded-lg bg-slate-100 px-5 py-3 font-medium text-slate-700 hover:bg-slate-200"
+          >
+            Election Data Analytics →
+          </Link>
+
+          <Link
+            href="/en/election-technology/digital-voting"
+            className="rounded-lg bg-slate-100 px-5 py-3 font-medium text-slate-700 hover:bg-slate-200"
+          >
+            Digital Voting →
+          </Link>
+
+        </div>
+
+      </section>
+      
       {/* Back */}
       <div className="mt-16 border-t pt-8">
         <Link
