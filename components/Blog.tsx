@@ -9,17 +9,23 @@ export default function BlogPage() {
       readTime: "8 min read",
     },
     {
+      slug: "webdevelopment",
+      title: "Architecting sabiyotech.com: A Guide to Personal Website Development ",
+      category: "Research & Innovation",
+      readTime: "10 min read",
+    },
+    {
       slug: "building-cyberguard-ai",
       title: "CyberGuard AI: Building an AI-Powered Security Analyst from Scratch",
       category: "Cybersecurity & Artificial Intelligence",
       readTime: "8 min read",
     },
     {
-      slug: "webdevelopment",
-      title: "Architecting sabiyotech.com: A Guide to Personal Website Development ",
-      category: "Research & Innovation",
+      slug: "vulnerability-assessment",
+      title: "Architecting an AI-Powered Vulnerability Assessment and Risk Management Platform",
+      category: "Cybersecurity & Artificial Intelligence",
       readTime: "10 min read",
-    }
+    },
   ];
 
   return (
