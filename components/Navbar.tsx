@@ -35,16 +35,25 @@ export default function Navbar() {
               className="flex items-center gap-3"
             >
               <Image
-                src="/images/yogesh.png"
-                alt="Yogesh Aryal"
+                src="/images/logo.jpeg"
+                alt="logo"
                 width={40}
                 height={40}
                 className="rounded-full border border-gray-200 object-cover"
               />
 
-              <span className="text-2xl font-bold text-slate-900 hover:text-blue-700 transition">
-                Yogesh Aryal
-              </span>
+              <div className="inline-flex flex-col font-sans select-none">
+                  {/* Brand Name with inline styling spans if needed */}
+                  <span className="text-[14pt] font-bold tracking-tight leading-tight">
+                    <span className="text-[#003B73]">sabiyo</span>
+                    <span className="text-[#C89D7C]">tech</span>
+                  </span>
+
+                  {/*Tagline*/}
+                  <span className="text-[8pt] font-light text-[#003B73] tracking-wide mt-1">
+                    innovating tomorrow’s technology
+                  </span>
+                </div>
             </Link>
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-8">

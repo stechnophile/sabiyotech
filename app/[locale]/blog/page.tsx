@@ -26,6 +26,12 @@ export default function BlogPage() {
       category: "Cybersecurity & Artificial Intelligence",
       readTime: "10 min read",
     },
+    {
+      slug: "digitaltransformation-smes",
+      title: "Navigating the Digital Shift: Enablers and Barriers for SMEs in Emerging Markets",
+      category: "Digital Transformation & Research",
+      readTime: "10 min read",
+    },
   ];
 
   return (
