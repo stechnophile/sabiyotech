@@ -1,6 +1,7 @@
 export default function Feedback() {
   return (
-    <section className="bg-slate-50 py-20">
+    <main className="mx-auto max-w-7xl px-6 py-20">
+    
       <div className="mx-auto max-w-3xl px-6">
         <h2 className="text-4xl font-bold text-center">
           Share Your Feedback
@@ -39,6 +40,6 @@ export default function Feedback() {
           </button>
         </form>
       </div>
-    </section>
+    </main>
   );
 }

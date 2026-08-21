@@ -3,6 +3,17 @@ import { mediaItems } from "@/data/media";
 
 export default function MediaGallery() {
   return (
+    <section className="mx-auto max-w-7xl px-6 py-20">
+
+        <h1 className="text-center text-4xl font-bold">
+          Media Gallery
+        </h1>
+
+        <p className="mx-auto mt-6 max-w-3xl text-center text-gray-600">
+          Highlights from conferences, workshops,
+          presentations and professional activities.
+        </p>
+
     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 
       {mediaItems.map((item) => (
@@ -32,5 +43,7 @@ export default function MediaGallery() {
       ))}
 
     </div>
+
+  </section>  
   );
 }

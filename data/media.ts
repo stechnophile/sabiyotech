@@ -5,7 +5,7 @@ export const mediaItems = [
     category: "Election Technology",
   },
   {
-    image: "/images/media/Onlinekhabar.jpeg",
+    image: "/images/media/OnlineKhabar.jpeg",
     title: "Conference on AI",
     category: "Artificial Intelligence",
   },

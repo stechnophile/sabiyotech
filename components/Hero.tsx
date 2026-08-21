@@ -7,9 +7,9 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="relative z-10">
 
-        <div className="max-w-5xl mx-auto px-6 text-center mt-16">
+        <div className="max-w-3xl mx-auto px-4 text-center mt-16">
 
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">
+          <h1 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight">
             Exploring the intersection
             <br />of
             <br />

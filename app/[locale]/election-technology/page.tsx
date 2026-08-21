@@ -23,13 +23,6 @@ const topics = [
       "Discover how AI supports election planning, logistics, and integrity.",
   },
   {
-    title: "Election Data Analytics",
-    slug: "election-data-analytics",
-    icon: "📊",
-    description:
-      "Insights from election data, dashboards, visualization, and reporting.",
-  },
-  {
     title: "Digital Voting",
     slug: "digital-voting",
     icon: "🗳️",
@@ -42,7 +35,7 @@ export default function Topics() {
   return (
   <section
     id="election-technology"
-    className="bg-white py-24"
+    className="mx-auto max-w-7xl px-6 py-20"
   >
       <div className="mx-auto max-w-7xl px-6">
 
@@ -51,7 +44,7 @@ export default function Topics() {
             Knowledge Hub
           </p>
 
-          <h2 className="mt-4 text-5xl font-bold text-slate-900">
+          <h2 className="mt-4 text-4xl font-bold text-slate-900">
             Explore Election Technology
           </h2>
 

@@ -5,14 +5,15 @@ export default function ContactPage() {
     <main className="mx-auto max-w-7xl px-6 py-20">
 
       <div className="mb-16 text-center">
-        <h1 className="text-5xl font-bold text-slate-900">
-          Contact & Collaboration
+        <h1 className="text-center text-4xl font-bold">
+          Contact & Collaboration  
         </h1>
-
+        
         <p className="mt-4 text-lg text-slate-600">
-          Interested in election technology, AI, cybersecurity, digital governance, or research collaboration?
-          <br /><strong>Feel free to reach out. </strong>
+        Interested in election technology, AI, cybersecurity, digital governance, or research collaboration?
+        <br /><strong>Feel free to reach out. </strong>
         </p>
+      
       </div>
 
       <div className="grid gap-12 lg:grid-cols-2">

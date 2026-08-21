@@ -3,11 +3,16 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section
+    <main className="mx-auto max-w-7xl px-6 py-20">
+    {/*<section
       id="about"
       className="bg-white py-24"
-    >
+    >*/}
       <div className="mx-auto max-w-7xl px-6">
+
+        <h1 className="text-center text-4xl font-bold">
+        About ME
+        </h1>
 
         <div className="grid items-center gap-16 lg:grid-cols-2">
 
@@ -25,20 +30,16 @@ export default function About() {
           {/* Right Side */}
           <div>
 
-            <p className="font-semibold uppercase tracking-widest text-blue-600">
-              About Me
-            </p>
-
-            <h2 className="mt-4 text-5xl font-bold text-slate-900">
-              Yogesh Aryal
+            <h2 className="mt-4 text-4xl font-bold text-slate-900">
+            Yogesh Aryal
             </h2>
 
             <p className="mt-3 text-xl text-blue-700 font-medium">
-              Senior ICT Director Specialist & IT Director | Election Technology, Cybersecurity & AI Governance
+            Senior ICT Specialist & IT Director | Election Technology, Cybersecurity & AI Governance
             </p>
 
             <p className="mt-8 text-lg leading-8 text-slate-600">
-              I am an ICT professional with over 10 years of progressive leadership experience in government digital transformation, critical IT infrastructure protection, and governance. My current research focuses on election technology, artificial intelligence and cybersecurity.
+            I am an ICT professional with over 10 years of progressive leadership experience in government digital transformation, critical IT infrastructure protection, and governance. My current research focuses on election technology, artificial intelligence and cybersecurity.
             </p>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -56,15 +57,15 @@ export default function About() {
                 href="mailto:yogesharyal2048@gmail.com"
                 className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
               >
-                📧 Contact Me
+              📧 Contact Me
               </a>
-
-              <a
-                href="/resume/YOGESH_ARYAL_CV"
-                download
+             <a
+                href="/YOGESH_ARYAL_CV.pdf"
+                target="_blank"
                 className="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+                rel="noopener noreferrer"
               >
-                📄 Download CV
+              📄 Download CV
               </a>
             </div>
 
@@ -78,9 +79,9 @@ export default function About() {
 
           <div className="mt-24">
 
-            <h3 className="text-center text-4xl font-bold text-slate-900">
-              Academic & Professional Journey
-            </h3>
+            <h1 className="text-center text-4xl font-bold">
+            Academic & Professional Journey
+            </h1>
 
             <p className="mt-4 text-center text-lg text-slate-600">
               A visual overview of my academic background, professional experience, and research journey.
@@ -98,6 +99,7 @@ export default function About() {
 
           </div>
 
-    </section>
+    </main>
+
   );
 }

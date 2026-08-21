@@ -36,6 +36,7 @@ export default function BlogPage() {
 
   return (
     <main className="min-h-screen bg-neutral-50">
+      
 
       {/* Hero / Header */}
       <section className="relative overflow-hidden border-b bg-white">
@@ -53,15 +54,16 @@ export default function BlogPage() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-slate-900 md:text-6xl">
+          <h1 className="max-w-2xl text-2xl font-bold tracking-tight text-slate-900 md:text-4xl">
             Blog & Research Articles
           </h1>
 
           {/* Description */}
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600 md:text-xl">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
             Articles and blog posts on election technology, cybersecurity,
             artificial intelligence, and digital transformation.
           </p>
+
 
           {/* Decorative line */}
           <div className="mt-10 h-1 w-20 rounded-full bg-blue-600" />
@@ -71,7 +73,7 @@ export default function BlogPage() {
 
 
       {/* Articles */}
-      <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <section className="mx-auto max-w-4xl px-6 py-16 md:py-18">
 
         <div className="grid gap-8">
 
@@ -116,7 +118,7 @@ export default function BlogPage() {
 
 
                 {/* Title */}
-                <h2 className="relative mt-5 max-w-4xl text-2xl font-bold leading-tight text-slate-900 transition-colors duration-300 group-hover:text-blue-700 md:text-3xl">
+                <h2 className="relative mt-5 max-w-3xl text-xl font-bold leading-tight text-slate-900 transition-colors duration-300 group-hover:text-blue-700 md:text-2xl">
                   {article.title}
                 </h2>
 
