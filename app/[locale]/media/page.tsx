@@ -32,7 +32,7 @@ export default function MediaGallery() {
 
           <div className="p-4">
             <span className="text-sm text-blue-600">
-              {item.category}
+              {item.category}, {item.date}
             </span>
 
             <h3 className="mt-2 font-semibold">
