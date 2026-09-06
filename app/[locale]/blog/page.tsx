@@ -3,15 +3,9 @@ import Link from "next/link";
 export default function BlogPage() {
   const articles = [
     {
-      slug: "digital-elections-nepal",
-      title: "Digital Elections in Nepal: Are We Ready for the Future?",
-      category: "Election Technology",
-      readTime: "8 min read",
-    },
-    {
-      slug: "webdevelopment",
-      title: "Architecting sabiyotech.com: A Guide to Personal Website Development ",
-      category: "Research & Innovation",
+      slug: "vulnerability-assessment",
+      title: "Architecting an AI-Powered Vulnerability Assessment and Risk Management Platform",
+      category: "Cybersecurity & Artificial Intelligence",
       readTime: "10 min read",
     },
     {
@@ -21,15 +15,21 @@ export default function BlogPage() {
       readTime: "8 min read",
     },
     {
-      slug: "vulnerability-assessment",
-      title: "Architecting an AI-Powered Vulnerability Assessment and Risk Management Platform",
-      category: "Cybersecurity & Artificial Intelligence",
+      slug: "webdevelopment",
+      title: "Architecting sabiyotech.com: A Guide to Personal Website Development ",
+      category: "Research & Innovation",
       readTime: "10 min read",
+    },
+    {
+      slug: "digital-elections-nepal",
+      title: "Digital Elections in Nepal: Are We Ready for the Future?",
+      category: "Election Technology",
+      readTime: "8 min read",
     },
     {
       slug: "digitaltransformation-smes",
       title: "Navigating the Digital Shift: Enablers and Barriers for SMEs in Emerging Markets",
-      category: "Digital Transformation & Research",
+      category: "Research & Innovation",
       readTime: "10 min read",
     },
   ];

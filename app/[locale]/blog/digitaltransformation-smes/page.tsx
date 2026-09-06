@@ -14,31 +14,33 @@ export default function DigitalTransformationSMEsBlogPage() {
           <div className="max-w-4xl">
 
             <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-              Digital Transformation & Research
+              Research & Innovation
             </span>
 
             <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 md:text-6xl">
               Navigating the Digital Shift: Enablers and Barriers for SMEs in Emerging Markets
             </h1>
 
-            <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-slate-500">
+            <div className="mt-8 flex flex-wrap items-center gap-4 text-slate-500">
 
               <span>
-                By{" "}
-                <strong className="text-slate-700">
-                  Yogesh Aryal
-                </strong>
+                By <strong className="text-slate-700">Yogesh Aryal</strong>
               </span>
+
+              <span>•</span>
+
+              <span> June, 2022</span>
+              
+              <span>•</span>
+
+              <span>Digital Transformation Case Study</span>
 
               <span>•</span>
 
               <span>10 min read</span>
 
-              <span>•</span>
-
-              <span>Digital Transformation</span>
-
             </div>
+
 
             <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-600">
               Navigating the digital shift in emerging markets by examining

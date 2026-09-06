@@ -25,14 +25,25 @@ export default function webdevelopmentBlogPage() {
           </h1>
 
           {/* Author */}
-          <p className="mt-6 text-lg text-slate-600">
-            By Yogesh Aryal
-          </p>
+            <div className="mt-8 flex flex-wrap items-center gap-4 text-slate-500">
 
-          {/* Reading time */}
-          <p className="mt-2 text-sm font-medium text-slate-400">
-            10 min read
-          </p>
+              <span>
+                By <strong className="text-slate-700">Yogesh Aryal</strong>
+              </span>
+
+              <span>•</span>
+
+              <span> May, 2025</span>
+              
+              <span>•</span>
+
+              <span>Web Development</span>
+
+              <span>•</span>
+
+              <span>10 min read</span>
+
+            </div>
 
           {/* Accent */}
           <div className="mt-8 h-1 w-20 rounded-full bg-blue-600" />

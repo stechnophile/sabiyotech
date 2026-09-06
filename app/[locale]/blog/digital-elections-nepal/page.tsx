@@ -83,6 +83,10 @@ export default function digitalelectionnepalBlogPage() {
 
               <span>•</span>
 
+              <span> April, 2025</span>
+              
+              <span>•</span>
+
               <span>Election Technology</span>
 
               <span>•</span>

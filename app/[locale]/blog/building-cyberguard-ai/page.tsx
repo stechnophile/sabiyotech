@@ -22,7 +22,7 @@ export default function BuildingCyberGuardAIBlogPage() {
               CyberGuard AI: Building an AI-Powered Security Analyst from Scratch
             </h1>
 
-            <div className="mt-8 flex flex-wrap items-center gap-4 text-sm text-slate-500">
+            <div className="mt-8 flex flex-wrap items-center gap-4 text-slate-500">
 
               <span>
                 By <strong className="text-slate-700">Yogesh Aryal</strong>
@@ -30,13 +30,18 @@ export default function BuildingCyberGuardAIBlogPage() {
 
               <span>•</span>
 
-              <span>8 min read</span>
-
+              <span> June, 2025</span>
+              
               <span>•</span>
 
               <span>Cybersecurity</span>
 
+              <span>•</span>
+
+              <span>8 min read</span>
+
             </div>
+
 
             <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-600">
               A practical journey into building a lightweight AI-powered
