@@ -17,6 +17,7 @@ export default function Navbar() {
     {name: t("home"), href: `/${locale}#home`},
     /*{name: t("caseStudies"), href: `/${locale}#case-studies`},*/
     {name: t("electionTechnology"), href: `/${locale}#election-technology`},
+    {name: t("cybersecurity"), href: `/${locale}/cybersecurity`},
     {name: t("blog"), href: `/${locale}/blog`},
     {name: t("about"), href: `/${locale}/about`},
     {name: t("media"), href: `/${locale}/media`},
