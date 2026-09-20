@@ -111,12 +111,6 @@ export default function CybersecurityTopics() {
             continuously improving security through technology and automation.
           </p>
 
-          <Link
-            href="/cybersecurity"
-            className="mt-6 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700 hover:shadow-lg"
-          >
-            Explore Cybersecurity →
-          </Link>
         </div>
 
       </div>

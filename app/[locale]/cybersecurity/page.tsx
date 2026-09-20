@@ -30,8 +30,15 @@ const topics = [
       "Understand how organizations prepare for cyber incidents, system failures, and disasters while maintaining critical operations and recovering securely.",
   },
   {
-    title: "Tools and Automation by Python",
-    slug: "tools-automation-python",
+    title: "Tools in cybersecurity",
+    slug: "tools-in-cybersecurity",
+    icon: "🛠️",
+    description:
+      "Explore the essential tools used in cybersecurity for threat detection, analysis, and response.",
+  },
+  {
+    title: "Cybersecurity Automation by Python",
+    slug: "automation-python",
     icon: "🐍",
     description:
       "Discover how Python can automate cybersecurity tasks such as log analysis, network scanning, vulnerability assessment, threat detection, reporting, and security monitoring.",
@@ -111,12 +118,6 @@ export default function CybersecurityTopics() {
             continuously improving security through technology and automation.
           </p>
 
-          <Link
-            href="/cybersecurity"
-            className="mt-6 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700 hover:shadow-lg"
-          >
-            Explore Cybersecurity →
-          </Link>
         </div>
 
       </div>
