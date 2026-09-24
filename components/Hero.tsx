@@ -14,24 +14,24 @@ export default function Hero() {
             <br />of
             <br />
             <span className="text-gray-400">
-              Election Technology,
+              Cybersecurity,
             </span>
             <br />
             <span className="text-gray-400">
-              Cybersecurity & Artificial Intelligence
+              Generative AI & Capacity Building
             </span>
             <br />for
             <br />
-              Ensuring Reliable, Transparent, and Secure Elections.
+            Building a More Secure Digital Future.
           </h1>
 
           <br />
           <br />
 
           <p className="mt-2 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover case studies, research, projects, and technical
-            insights on safeguarding modern democratic processes and
-            driving digital transformation.
+            Discover practical cybersecurity projects, AI-driven security
+            solutions, research, and capacity-building initiatives focused on
+            strengthening cybersecurity knowledge and resilience.
           </p>
 
           <br />
@@ -72,18 +72,18 @@ export default function Hero() {
         </div>
 
         {/* Mobile Sticky Notes */}
-        <div className="mt-12 flex flex-wrap justify-center gap-3 px-6 lg:hidden font-['Comic_Sans_MS',cursive]">
+        <div className="mt-12 flex flex-wrap justify-center gap-3 px-6 lg:hidden font-['Comic_Sans_MS',cursive">
 
           <div className="rounded-xl bg-blue-100/90 px-4 py-2 shadow">
-            Election Technology
+            Cybersecurity Practitioner
           </div>
 
           <div className="rounded-xl bg-purple-100/90 px-4 py-2 shadow">
-            Artificial Intelligence
+            Generative AI
           </div>
 
           <div className="rounded-xl bg-green-100/90 px-4 py-2 shadow">
-            Cybersecurity
+            Capacity Building
           </div>
 
           <div className="rounded-xl bg-orange-100/90 px-4 py-2 shadow">
@@ -96,17 +96,17 @@ export default function Hero() {
         <div className="hidden lg:block">
 
           <StickyNote
-            text="Election Technology"
+            text="Cybersecurity Practitioner"
             className="top-16 left-10 bg-blue-100/90 rotate-[-8deg] font-['Comic_Sans_MS',cursive]"
           />
 
           <StickyNote
-            text="Artificial Intelligence"
+            text="Generative AI"
             className="top-16 right-10 bg-purple-100/90 rotate-[6deg] font-['Comic_Sans_MS',cursive]"
           />
 
           <StickyNote
-            text="Cybersecurity"
+            text="Capacity Building"
             className="bottom-16 left-10 bg-green-100/90 rotate-[5deg] font-['Comic_Sans_MS',cursive]"
           />
 

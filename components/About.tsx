@@ -15,7 +15,7 @@ export default function About() {
 
         <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-slate-600">
           Learn more about my professional background, expertise, and journey
-          in ICT, election technology, cybersecurity, and artificial intelligence.
+          in ICT, cybersecurity, artificial intelligence and election technology.
         </p>
       </section>
 
@@ -52,16 +52,15 @@ export default function About() {
             </h2>
 
             <p className="mt-3 text-xl font-medium text-blue-700">
-              Senior ICT Specialist & IT Director | Election Technology,
-              Cybersecurity & AI Governance
+              Senior ICT Specialist & IT Director | Cybersecurity & AI Governance
             </p>
 
             <p className="mt-8 text-lg leading-8 text-slate-600">
               I am an ICT professional with over 10 years of progressive
               leadership experience in government digital transformation,
               critical IT infrastructure protection, and governance. My
-              current research focuses on election technology, artificial
-              intelligence and cybersecurity.
+              current research focuses on cybersecurity, artificial
+              intelligence and election technology.
             </p>
 
           </div>
@@ -95,11 +94,11 @@ export default function About() {
               </p>
 
               <p>
-                ✅ Election Technology & Integrity Practitioner
+                ✅ AI & Cybersecurity Practioner 
               </p>
 
               <p>
-                ✅ AI & Cybersecurity Enthusiastic
+                ✅ Election Technology & Integrity Practitioner
               </p>
 
               <p>
